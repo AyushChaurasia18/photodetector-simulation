@@ -9,6 +9,8 @@ from config import DEFAULT_CONFIG
 from utils.metrics import mse, psnr, snr
 from utils.image_generator import generate_default_image
 
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 st.set_page_config(layout="wide")
 
 st.title("📷 Photon-Limited Imaging Simulator")
