@@ -41,7 +41,7 @@ st.sidebar.header("Input Image")
 use_default = st.sidebar.checkbox("Use Default Synthetic Image", True)
 
 uploaded_file = st.file_uploader("Upload image", type=["png", "jpg", "jpeg"])
-N_max = st.sidebar.slider("Max Photon Count", 1, 5000, 1000)
+N_max = st.sidebar.slider("Max Photon Count", 1, 500, 100)
 
 config.update({
     "N_max": N_max,
