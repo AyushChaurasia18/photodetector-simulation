@@ -8,6 +8,6 @@ DEFAULT_CONFIG = {
     "dark_current": 0.01,    # electrons/sec
     "read_noise_std": 1.0,
     "gain": 1.0,
-    "bit_depth": 8,
+    "bit_depth": 32,
     "V_max": 255
 }
